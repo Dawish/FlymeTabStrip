@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
-
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
 android {
     compileSdkVersion 25
     buildToolsVersion "23.0.3"
@@ -26,5 +30,6 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.1'
     testCompile 'junit:junit:4.12'
-    compile project(':tabstrip')
+//    compile project(':tabstrip')
+    compile 'com.github.Dawish:FlymeTabStrip:v1.0.0'
 }
