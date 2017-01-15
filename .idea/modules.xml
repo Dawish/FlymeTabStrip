@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlymeTabStrip.iml" filepath="$PROJECT_DIR$/FlymeTabStrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tabstrip/tabstrip.iml" filepath="$PROJECT_DIR$/tabstrip/tabstrip.iml" />
+    </modules>
+  </component>
+</project>
