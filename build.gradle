@@ -3,6 +3,7 @@
 buildscript {
     repositories {
         jcenter()
+        // 指向自定义的maven库jitpack
         maven { url "https://jitpack.io" }
     }
     dependencies {
