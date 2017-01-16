@@ -129,7 +129,6 @@ public class FlymeTabStrip extends HorizontalScrollView {
 	 * @param defStyleRes
 	 */
 	private void init(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-		Log.i(TAG,"init----->");
 		this.context = context;
 		// 取消横向的滚动条
 		setHorizontalScrollBarEnabled(false);
@@ -210,8 +209,6 @@ public class FlymeTabStrip extends HorizontalScrollView {
 		float tempPadding = 20;
 		// 如果出现位移
 
-		Log.i("danxx","currentPositionOffset--->"+currentPositionOffset);
-
 		float centerPosition = 0.0f;
 
 		if (currentPositionOffset >= 0f && currentPosition < tabCount - 1) {
@@ -279,7 +276,6 @@ public class FlymeTabStrip extends HorizontalScrollView {
 	 * @param offset
 	 */
 	private void scrollToChild(int position, int offset) {
-		Log.i(TAG,"scrollToChild---->");
 		if (tabCount == 0) {
 			return;
 		}
@@ -343,7 +339,6 @@ public class FlymeTabStrip extends HorizontalScrollView {
 		float adsP = (float) Math.abs(percent - 0.5f);
 
 		float valueP = Math.abs(0.5f - adsP);
-		Log.i("danxx", "格式化-2->"+valueP);
 		return valueP;
 	}
 
