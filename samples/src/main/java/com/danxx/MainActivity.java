@@ -16,8 +16,9 @@ import com.danxx.tabstrip.FlymeTabStrip;
 
 public class MainActivity extends AppCompatActivity {
     private FlymeTabStrip tabStrip;
-    private String[] titles = new String[] { "Flyme", "煤油", "杨颜", "白总", "黄总", "安全中心", "黄页",
-            "联系人", "电话" };
+//    private String[] titles = new String[] { "Flyme", "煤油", "杨颜", "白总", "黄总", "安全中心", "黄页",
+//            "联系人", "电话" };
+private String[] titles = new String[] { "Flyme", "煤油", "杨颜"};
     /**
      * 指示器偏移宽度
      */
@@ -34,8 +35,9 @@ public class MainActivity extends AppCompatActivity {
      */
     private int screeHeight = 0;
 
-    private int[] drawableResIds = {R.mipmap.mm1,R.mipmap.mm2,R.mipmap.mm3,R.mipmap.mm4,R.mipmap.mm5,
-            R.mipmap.mm6,R.mipmap.mm7,R.mipmap.mm8};
+//    private int[] drawableResIds = {R.mipmap.mm1,R.mipmap.mm2,R.mipmap.mm3,R.mipmap.mm4,R.mipmap.mm5,
+//            R.mipmap.mm6,R.mipmap.mm7,R.mipmap.mm8};
+    private int[] drawableResIds = {R.mipmap.mm1,R.mipmap.mm2,R.mipmap.mm3};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

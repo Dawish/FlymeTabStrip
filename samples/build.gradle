@@ -31,5 +31,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.1'
     testCompile 'junit:junit:4.12'
 //    compile project(':tabstrip')
-    compile 'com.github.Dawish:FlymeTabStrip:v1.0.0'
+    compile 'com.github.Dawish:FlymeTabStrip:v1.0.2'
 }
