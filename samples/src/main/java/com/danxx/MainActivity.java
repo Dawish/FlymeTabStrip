@@ -15,10 +15,10 @@ import android.widget.ImageView;
 import com.danxx.tabstrip.FlymeTabStrip;
 
 public class MainActivity extends AppCompatActivity {
-    private FlymeTabStrip tabStrip;
+    private FlymeTabStrip tabStrip,tabStrip2,tabStrip3;
 //    private String[] titles = new String[] { "Flyme", "煤油", "杨颜", "白总", "黄总", "安全中心", "黄页",
 //            "联系人", "电话" };
-private String[] titles = new String[] { "Flyme", "煤油", "杨颜"};
+private String[] titles = new String[] { "Flyme", "煤油", "杨颜","白永祥"};
     /**
      * 指示器偏移宽度
      */
@@ -37,7 +37,7 @@ private String[] titles = new String[] { "Flyme", "煤油", "杨颜"};
 
 //    private int[] drawableResIds = {R.mipmap.mm1,R.mipmap.mm2,R.mipmap.mm3,R.mipmap.mm4,R.mipmap.mm5,
 //            R.mipmap.mm6,R.mipmap.mm7,R.mipmap.mm8};
-    private int[] drawableResIds = {R.mipmap.mm1,R.mipmap.mm2,R.mipmap.mm3};
+    private int[] drawableResIds = {R.mipmap.mm1,R.mipmap.mm2,R.mipmap.mm3,R.mipmap.mm4};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,13 +45,16 @@ private String[] titles = new String[] { "Flyme", "煤油", "杨颜"};
 
         mViewPager = (ViewPager) findViewById(R.id.viewpager);
         tabStrip = (FlymeTabStrip) findViewById(R.id.tabstrip);
-
+        tabStrip2 = (FlymeTabStrip) findViewById(R.id.tabstrip2);
+        tabStrip3 = (FlymeTabStrip) findViewById(R.id.tabstrip3);
         screenWith = getWindow().getWindowManager().getDefaultDisplay().getWidth();
         screeHeight = getWindow().getWindowManager().getDefaultDisplay().getHeight()-dip2px(this, 45);
         //这里之所以是45，请查看布局文件，其中ViewPager以上的节点的高度总和为45
 
         mViewPager.setAdapter(new ViewPagerAdapter());
         tabStrip.setViewPager(mViewPager);
+        tabStrip2.setViewPager(mViewPager);
+        tabStrip3.setViewPager(mViewPager);
     }
     private class ViewPagerAdapter extends PagerAdapter
     {

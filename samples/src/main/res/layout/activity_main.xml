@@ -15,7 +15,26 @@
         custom:indicatorTextColor="@android:color/black"
         android:layout_width="match_parent"
         android:layout_height="40dp" />
-
+    <com.danxx.tabstrip.FlymeTabStrip
+        android:id="@+id/tabstrip2"
+        custom:indicatorHeight="4dp"
+        custom:indicatorColor="@android:color/holo_blue_light"
+        custom:indicatorMargin="20dp"
+        custom:indicatorTextSize="15sp"
+        custom:selectedIndicatorTextSize="15sp"
+        custom:indicatorTextColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <com.danxx.tabstrip.FlymeTabStrip
+        android:id="@+id/tabstrip3"
+        custom:indicatorHeight="4dp"
+        custom:indicatorColor="#008800"
+        custom:indicatorMargin="20dp"
+        custom:indicatorTextSize="15sp"
+        custom:selectedIndicatorTextSize="15sp"
+        custom:indicatorTextColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
