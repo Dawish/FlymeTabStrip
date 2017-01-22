@@ -37,6 +37,15 @@ dependencies {
         <attr name="selectedIndicatorTextSize" format="dimension" />
     </declare-styleable>
 ```
+## Example
+
+``` java
+    ViewPager mViewPager = (ViewPager) findViewById(R.id.viewpager);
+    mViewPager.setAdapter(new ViewPagerAdapter());
+    FlymeTabStrip tabStrip = (FlymeTabStrip) findViewById(R.id.tabstrip);
+    tabStrip.setViewPager(mViewPager);
+```
+
 ## Sample
 
 [Sample sources][2]
