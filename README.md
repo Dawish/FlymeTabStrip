@@ -4,6 +4,8 @@ Flyme6 ViewPager TabStrip
 
 ![效果图][1]
 
+### github地址:[http://blog.csdn.net/u010072711/article/details/54667861](http://blog.csdn.net/u010072711/article/details/54667861)
+
 ## Gradle
 
 [![](https://jitpack.io/v/Dawish/FlymeTabStrip.svg)](https://jitpack.io/#Dawish/FlymeTabStrip)
