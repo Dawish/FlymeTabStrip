@@ -5,6 +5,7 @@ buildscript {
         jcenter()
         // 指向自定义的maven库jitpack
         maven { url "https://jitpack.io" }
+        google()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.0'
@@ -17,7 +18,15 @@ buildscript {
 
 allprojects {
     repositories {
+        google()
         jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        maven {
+            url 'https://dl.google.com/dl/android/maven2/'
+        }
     }
 }
 
