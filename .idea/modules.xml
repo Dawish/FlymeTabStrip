@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FlymeTabStrip.iml" filepath="$PROJECT_DIR$/FlymeTabStrip.iml" />
+      <module fileurl="file://F:\GitHubCode\FlymeTabStrip\FlymeTabStrip.iml" filepath="F:\GitHubCode\FlymeTabStrip\FlymeTabStrip.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
+      <module fileurl="file://F:\GitHubCode\FlymeTabStrip\samples\samples.iml" filepath="F:\GitHubCode\FlymeTabStrip\samples\samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/tabstrip/tabstrip.iml" filepath="$PROJECT_DIR$/tabstrip/tabstrip.iml" />
+      <module fileurl="file://F:\GitHubCode\FlymeTabStrip\tabstrip\tabstrip.iml" filepath="F:\GitHubCode\FlymeTabStrip\tabstrip\tabstrip.iml" />
     </modules>
   </component>
 </project>
